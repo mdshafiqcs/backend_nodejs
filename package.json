@@ -1,0 +1,33 @@
+{
+  "name": "backend_nodejs",
+  "version": "1.0.0",
+  "description": "a backend practice project on nodejs expressjs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdshafiqcs/backend_nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "backend",
+    "mongodb"
+  ],
+  "author": "Md Shafiq Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdshafiqcs/backend_nodejs/issues"
+  },
+  "homepage": "https://github.com/mdshafiqcs/backend_nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
